@@ -1,0 +1,42 @@
+# IntelliJ IDEA files
+.idea
+*.iml
+
+# Logs
+*.log
+
+# Node.js modules
+node_modules
+
+# Environment settings
+.env
+
+# Distribution directories
+# dist
+
+# Scratch files
+*/*/scratches
+
+# Build directories
+.build
+
+# Foreign lock files
+package-lock.json
+yarn.lock
+
+.pnpm-store
+temp
+
+*/*/dist/
+
+.build
+
+# Foreign lock files
+
+.pnpm-store
+
+logs/
+
+.data-secondary/
+data/
+.google.json

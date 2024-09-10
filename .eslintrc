@@ -1,0 +1,29 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "prettier"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2021
+    },
+    "rules": {
+      // TypeScript with `strict` mode enabled checks this on its own
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": "off",
+  
+      // Allow namespaces.
+      // However, it is preferred to use them for types and interfaces only.
+      "@typescript-eslint/no-namespace": "off",
+  
+      // It is annoying, especially in tests.
+      "@typescript-eslint/no-non-null-assertion": "off"
+    },
+    "env": {
+      "es2021": true
+    }
+  }
